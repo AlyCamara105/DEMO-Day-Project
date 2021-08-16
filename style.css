@@ -1,0 +1,66 @@
+#navbar {
+    display:flex;
+    justify-content:space-evenly;
+    background-color: rgb(36, 253, 246);
+    font-size:1000;
+    color:black
+}
+
+Div { font-family:Arial;
+    background-color:black;
+    color:white
+}
+img{width:80px}
+
+div {color:white}
+
+button {color:blue;
+        background-color:lime;
+        font-size:40px
+}
+body{ background:black
+}
+#donationPage {color:white;}
+
+
+h2 { color:coral;
+}
+
+p {color:pink;
+}
+head{
+    background:white
+}
+
+#Header {
+    display: block;
+    border: solid 1px black;
+    padding: 2px;
+}
+h1 { color: lightcyan
+
+}
+
+#TrashGame {
+    display: none;
+}
+
+#homePage {
+    display: none;
+}
+
+#donationPage {
+    display: none;
+}
+
+#chartitiesPage {
+    display: none;
+}
+
+#contactPage {
+    display: none;
+}
+
+#gamePage {
+    display: none;
+}
