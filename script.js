@@ -2,6 +2,7 @@
 //call buttons
 let gameButton = document.querySelector("#Games")
 let homeButton = document.querySelector("#Home")
+let homeLogoLink = document.querySelector("#homelogo")
 let donationButton = document.querySelector("#Donations")
 let charitieButton = document.querySelector("#Charities")
 let contactButton = document.querySelector("#Contact")
@@ -122,6 +123,7 @@ homeButton.onclick = function(event) {
 }
 
 profilesButton.onclick = function(event) {
+    event.preventDefault();
 
     headerSection.style.display ="none";
     gameSection.style.display = "none";
@@ -134,3 +136,16 @@ profilesButton.onclick = function(event) {
     profilesSection.style.alignItems = "center";
 
 } 
+
+homeLogoLink.onclick = function(event) {
+    event.preventDefault();
+
+    headerSection.style.display ="block";
+    gameSection.style.display = "none";
+    donationSection.style.display = "none";
+    contactSection.style.display = "none";
+    homeSection.style.display = "block";
+    trashGame.style.display = "none";
+    profilesSection.style.display = "none";
+
+}
