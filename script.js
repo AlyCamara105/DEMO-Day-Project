@@ -23,6 +23,8 @@ let profilesSection = document.querySelector("#profilesSection")
 
 gameButton.onclick = function(event) {
     event.preventDefault();
+
+    let canvas = document.querySelector("#defaultCanvas0")
     
     gameSection.innerHTML = "";
 
@@ -45,13 +47,13 @@ gameButton.onclick = function(event) {
     TrashGameButton.onclick = function(event) {
         event.preventDefault();
 
-        gameSection.innerHTML = ""
-        trashGame.style.display = "block"
+        gameSection.innerHTML = "";
+        trashGame.style.display = "block";
         gameSection.appendChild(trashGame);
     }
 
     let adGif = document.createElement("img");
-    adGif.src = "images/ad.Gif";
+    adGif.src = "https://monophy.com/media/UTYnjUzKivMpvOHIqx/monophy.gif";
     adGif.style.width = "300px";
     adGif.style.height = "300px";
     adGif.style.marginTop = "100px";
@@ -69,7 +71,7 @@ gameButton.onclick = function(event) {
     }
 
     let AnotherAdGif = document.createElement("img");
-    AnotherAdGif.src = "images/ad.Gif";
+    AnotherAdGif.src = "https://monophy.com/media/UTYnjUzKivMpvOHIqx/monophy.gif";
     AnotherAdGif.style.width = "300px";
     AnotherAdGif.style.height = "300px";
     AnotherAdGif.style.marginTop = "100px";

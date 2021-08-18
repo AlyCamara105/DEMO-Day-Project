@@ -3,7 +3,8 @@
     justify-content:space-evenly;
     background-color: rgb(36, 253, 246);
     font-size:1000;
-    color:black
+    color:black;
+    border:solid white 2px
 }
 
 Div { 
@@ -19,7 +20,7 @@ img {
 div {color:white}
 
 button {color:rgb(163, 163, 182);
-    background-color:lime;
+    background-color:black;
     font-size:40px
 }
 
@@ -29,8 +30,10 @@ body {
 
 #donationPage 
     {color:white;
+    border: solid 3px blue;
+    display: flex;
 }
-
+       
 
 h2 {
     color:coral;
@@ -86,7 +89,7 @@ h1 {
 #WWF {
     display:flex;
     border: solid blue 5px;
-    justify-content: space-between;
+    justify-content: space-evenly;
     border-radius: 10px;
 }
 
@@ -164,3 +167,17 @@ li {
     border: solid 3px white;
     border-radius:10px;
 }
+
+#ourMission {
+    border:solid blue 3px ;
+    font-size: 30px;
+}
+
+.custom {
+    display:flex ;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+
+ 
